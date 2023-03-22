@@ -5,49 +5,69 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
+  <link rel="stylesheet" href="./style.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="box-border m-0 p-0 font-mono">
   <div>
-    <header>
-      <h2>ARSHA</h2>
-      <button>Home</button>
-      <button>About</button>
-      <button>Services</button>
-      <button>Get Started</button>
-    </header>
-    <div>
-      <h1>Better Solutions For Your Business</h1>
-      <p>We are team of talented designers making websites with Bootstrap</p>
-      <button>Get Started</button>
-      <img src="" alt="">
+    <div class="bg-[#37517e] text-white pb-32">
+      <div class="w-10/12 m-auto">
+        <header class="flex gap-4 w-10/12 m-auto pt-4 items-center">
+          <h2 class="mr-auto font-bold">ARSHA</h2>
+          <button class="text-[#439bcb] max-sm:hidden">Home</button>
+          <button class="max-sm:hidden">About</button>
+          <button class="max-sm:hidden">Services</button>
+          <button
+            class="border-2 border-[#47b2e4] rounded-full max-sm:hidden p-2 hover:bg-[#47b2e4] hover:translate-x-[-1px] hover:translate-y-[-1px]">Get
+            Started</button>
+          <button class="sm:hidden">
+            <img width="12px" src="./images/icons/hamburger-menu-icon.svg" alt="menu-btn">
+          </button>
+        </header>
+        <div class="grid text-center pt-16 w-11/12 m-auto sm:grid-cols-2 sm:grid-rows-1 sm:text-left">
+          <figure class="w-3/4 opacity-90 m-auto mb-4 sm:col-start-2">
+            <img src="./images/backgrounds/business-photo-2.webp" alt="business-photo">
+          </figure>
+          <div class="m-auto mb-6 sm:col-start-1 sm:row-start-1 sm:m-0 sm:my-auto px-8">
+            <h1 class="text-xl font-extrabold mb-2 sm:text-xl md:text-2xl xl:text-3xl 2xl:text-4xl">Better Solutions For
+              Your
+              Business</h1>
+            <p class="opacity-60 text-xs sm:mb-4 xl:text-lg">We are team of talented designers making websites with
+              Tailwind</p>
+            <button
+              class="mt-8 py-1.5 px-3 rounded-full bg-sky-400 hover:opacity-80 active:opacity-70 sm:row-start-2 sm:mt-[2vw] sm:mr-auto">
+              Get
+              Started
+            </button>
+          </div>
+
+        </div>
+      </div>
     </div>
     <!-- SECTION START -->
-    <div>
-      <h2 class="">Services</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ea ipsum fugiat voluptatibus non quia
-        corrupti placeat fugit, ullam suscipit?</p>
-      <div>
-        <h4>lorem</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta explicabo voluptas reiciendis, nostrum neque
-          quas odio ratione tempore deleniti consequatur voluptatum illum fuga, doloribus delectus est nemo cum impedit
-          numquam.</p>
-      </div>
-      <div>
-        <h4>Lorem, ipsum dolor.</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint temporibus, inventore ut iure nihil fugiat
-          saepe officiis commodi, voluptatum accusamus ex.</p>
-      </div>
-      <div>
-        <h4>Lorem ipsum dolor sit.</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aut velit mollitia est, qui facere provident
-          id inventore quas aperiam.</p>
-      </div>
-      <div>
-        <h4>Lorem ipsum dolor sit.</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, deserunt quas est porro odit, inventore
-          natus rerum modi consequuntur ad, aspernatur sed soluta qui?</p>
+    <div class="bg-[#f3f5fa]">
+      <div class="w-10/12 m-auto grid sm:grid-cols-2 gap-4 pb-16 pt-12 xl:grid-cols-4">
+        <h2 class="text-[#37517e] text-3xl font-bold text-center sm:col-span-2 xl:col-span-4">Services</h2>
+        <p class="text-center sm:col-span-2 xl:col-span-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+          rerum?</p>
+        <div class="bg-white drop-shadow-2xl py-10 px-6">
+          <h4 class="text-[#37517e] text-lg font-bold pb-4">Lorem, ipsum</h4>
+          <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, doloribus.
+          </p>
+        </div>
+        <div class="bg-white drop-shadow-2xl py-10 px-6">
+          <h4 class="text-[#37517e] text-lg font-bold pb-4">Lorem, ipsum dolor.</h4>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nobis.</p>
+        </div>
+        <div class="bg-white drop-shadow-2xl py-10 px-6">
+          <h4 class="text-[#37517e] text-lg font-bold pb-4">Lorem ipsum dolor sit.</h4>
+          <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, officia.</p>
+        </div>
+        <div class="bg-white drop-shadow-2xl py-10 px-6">
+          <h4 class="text-[#37517e] text-lg font-bold pb-4">Lorem ipsum dolor sit.</h4>
+          <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quisquam.</p>
+        </div>
       </div>
     </div>
     <!-- SECTION END -->
