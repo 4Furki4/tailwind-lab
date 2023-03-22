@@ -5,26 +5,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="box-border m-0 p-0 font-mono">
   <div>
-    <header>
-      <h2>ARSHA</h2>
-      <button>Home</button>
-      <button>About</button>
-      <button>Services</button>
-      <button>Get Started</button>
-    </header>
-    <div>
-      <h1>Better Solutions For Your Business</h1>
-      <p>We are team of talented designers making websites with Bootstrap</p>
-      <button>Get Started</button>
-      <img src="" alt="">
+    <div class="bg-[#37517e] text-white pb-32">
+      <div class="w-10/12 m-auto">
+        <header class="flex gap-4 w-10/12 m-auto">
+          <h2 class="mr-auto font-semibold">ARSHA</h2>
+          <button class="max-sm:hidden">Home</button>
+          <button class="max-sm:hidden">About</button>
+          <button class="max-sm:hidden">Services</button>
+          <button class="max-sm:hidden">Get Started</button>
+          <button class="sm:hidden">
+            <img width="12px" src="./images/icons/hamburger-menu-icon.svg" alt="menu-btn">
+          </button>
+        </header>
+        <div class="grid text-center pt-16 w-11/12 m-auto">
+          <figure class="w-3/4 opacity-90 m-auto mb-4">
+            <img src="./images/backgrounds/business-photo-2.webp" alt="business-photo">
+          </figure>
+          <div class="m-auto mb-6">
+            <h1 class="text-xl font-extrabold mb-2">Better Solutions For Your Business</h1>
+            <p class="opacity-60 text-xs">We are team of talented designers making websites with Tailwind
+            </p>
+          </div>
+          <button
+            class="m-auto rounded-3xl py-1.5 px-3.5 text-[3vw] font-bold bg-sky-400 hover:opacity-80 active:opacity-70">Get
+            Started</button>
+        </div>
+      </div>
     </div>
     <!-- SECTION START -->
-    <div>
+    <div class="bg-[#f3f5fa]">
       <h2 class="">Services</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ea ipsum fugiat voluptatibus non quia
         corrupti placeat fugit, ullam suscipit?</p>
